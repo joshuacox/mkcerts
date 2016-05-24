@@ -1,4 +1,4 @@
-all: TMPDIR ca swarm node0  node1
+all: ca swarm node0  node1
 
 ca:
 	openssl genrsa -out ca-priv-key.pem 2048
